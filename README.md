@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://trusting-haibt-6edf98.netlify.app/">
+    <a href="https://404-not-found-aadi.netlify.app/">
       Solution
     </a>
     <span> | </span>
