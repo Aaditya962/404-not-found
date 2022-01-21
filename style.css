@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    width: 133px;
+    height: 25px;
+    margin-left: 77px;
+    margin-top: 40px;
+    font-family: 'Inconsolata',monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 200px;
+}
+
+.container{
+    display: flex;
+
+}
+img{
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    align-items: flex-start;
+    margin-bottom: 70px;
+}
+h2{
+    width: 586px;
+    height: 190px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+p{
+
+    margin-top: 36px;
+    top: 196px;
+    max-width: 341px;
+    height: 108px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+button{
+
+    cursor: pointer;
+    margin-top: 88px;
+    width: 216px;
+    height: 68px;
+    background-color: #333333;
+    color: #fff;
+}
+.footer-para{
+    
+    margin: 30px auto;
+    height: auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    text-align: center;
+    min-width: 480px;
+    opacity: 0.6;
+}
+span{
+    font-weight: bold;
+}
+
+@media (max-width:500px) {
+
+    h1{
+        margin-left: 24px;
+        margin-top: 20px;
+        margin-bottom: 64px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    img{
+        max-width: 286.83px;
+        max-height: 220.35px;
+    }
+    .content{
+        margin-bottom: 0px;
+    }
+    h2{
+        font-size: clamp(5rem,9vh,10rem);
+        margin-top: 60px;
+        padding-left: 20px;
+    }
+    p{
+        padding-left: 20px;
+        font-size: clamp(1.8rem,4vh,4rem); 
+        max-width: 450px;
+        line-height: 36px;
+    }
+    button{
+        margin-left: 20px;
+    }
+    .footer-para{
+        position: relative;
+        bottom: 0;
+        margin-top: 0;
+        font-size: 1.3rem;
+        min-width: 450px;
+    }
+}
