@@ -100,14 +100,15 @@ span{
         margin-bottom: 0px;
     }
     h2{
-        font-size: clamp(5rem,9vh,10rem);
+        width: 100%;
+        font-size: 3rem;
         margin-top: 60px;
         padding-left: 20px;
     }
     p{
         padding-left: 20px;
         font-size: clamp(1.8rem,4vh,4rem); 
-        max-width: 450px;
+        width: 100%;
         line-height: 36px;
     }
     button{
